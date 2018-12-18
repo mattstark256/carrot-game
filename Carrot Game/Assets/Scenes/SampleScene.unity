@@ -161,7 +161,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 1.7
+  m_Radius: 1.5
 --- !u!212 &2818753
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -694,16 +694,16 @@ PolygonCollider2D:
   m_Points:
     m_Paths:
     - - {x: 5.765665, y: 1.3833941}
-      - {x: 4.669053, y: -2.5505629}
+      - {x: 4.550565, y: -2.5110664}
       - {x: 0.893409, y: -3.5077012}
       - {x: 0.8786339, y: -4.433656}
-      - {x: 3.3256056, y: -4.747594}
+      - {x: 3.26636, y: -4.905579}
       - {x: 3.2575421, y: -7.2360253}
-      - {x: -2.1080735, y: -7.165249}
-      - {x: -2.0526862, y: -4.5508265}
+      - {x: -1.93034, y: -7.0862565}
+      - {x: -1.9539452, y: -4.847049}
       - {x: -0.8019399, y: -4.467823}
       - {x: -0.8069683, y: -3.5520213}
-      - {x: -3.878493, y: -3.135234}
+      - {x: -3.7600038, y: -3.0562413}
       - {x: -5.6365285, y: -0.56616306}
       - {x: -11.387958, y: -13.725021}
       - {x: 11.95098, y: -12.846243}
@@ -1312,6 +1312,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 1058859444, guid: 5fc43a6b4aa723b449bb3878148be24c, type: 3}
+      propertyPath: fieldManager
+      value: 
+      objectReference: {fileID: 171187841}
+    - target: {fileID: 1058859444, guid: 5fc43a6b4aa723b449bb3878148be24c, type: 3}
+      propertyPath: carrotPile
+      value: 
+      objectReference: {fileID: 2818751}
+    - target: {fileID: 1058859444, guid: 5fc43a6b4aa723b449bb3878148be24c, type: 3}
+      propertyPath: scoreCounter
+      value: 
+      objectReference: {fileID: 171187843}
+    - target: {fileID: 1058859444, guid: 5fc43a6b4aa723b449bb3878148be24c, type: 3}
+      propertyPath: mirror
+      value: 
+      objectReference: {fileID: 171187844}
     - target: {fileID: 1489342614091178270, guid: 5fc43a6b4aa723b449bb3878148be24c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1367,27 +1383,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1489342614091178268, guid: 5fc43a6b4aa723b449bb3878148be24c,
-        type: 3}
-      propertyPath: m_Offset.y
-      value: 0.3
-      objectReference: {fileID: 0}
-    - target: {fileID: 1058859444, guid: 5fc43a6b4aa723b449bb3878148be24c, type: 3}
-      propertyPath: fieldManager
-      value: 
-      objectReference: {fileID: 171187841}
-    - target: {fileID: 1058859444, guid: 5fc43a6b4aa723b449bb3878148be24c, type: 3}
-      propertyPath: carrotPile
-      value: 
-      objectReference: {fileID: 2818751}
-    - target: {fileID: 1058859444, guid: 5fc43a6b4aa723b449bb3878148be24c, type: 3}
-      propertyPath: scoreCounter
-      value: 
-      objectReference: {fileID: 171187843}
-    - target: {fileID: 1058859444, guid: 5fc43a6b4aa723b449bb3878148be24c, type: 3}
-      propertyPath: mirror
-      value: 
-      objectReference: {fileID: 171187844}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5fc43a6b4aa723b449bb3878148be24c, type: 3}
 --- !u!1001 &1978189945214699582

@@ -9,9 +9,28 @@ public class Carrot : MonoBehaviour
     [SerializeField]
     private float growDuration = 5;
 
+    [SerializeField]
+    private float tiltAmount = 10;
+    [SerializeField]
+    private float tiltDuration = 2;
+    [SerializeField]
+    private float waveSpacing = 5;
+    private float waveOffset = 0;
+
     public bool isGrown = false;
 
     private float nextReproduceTime = 0;
+
+    private void Awake()
+    {
+        waveOffset = (transform.position.x + transform.position.y) / waveSpacing + Random.Range(-0.1f, 0.1f);
+    }
+
+
+    private void Update()
+    {
+        transform.localRotation = Quaternion.Euler(0, 0, tiltAmount * Mathf.Sin(2 * Mathf.PI * (Time.time / tiltDuration + waveOffset)));
+    }
 
 
     public void InitializeFullyGrownPlant()

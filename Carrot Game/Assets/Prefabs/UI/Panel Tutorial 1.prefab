@@ -80,6 +80,7 @@ MonoBehaviour:
     m_LineSpacing: 1.25
   m_Text: 'Use WASD or the arrow keys to move.
 
+
     Press spacebar to dig up a carrot.'
 --- !u!1001 &2279812974213086186
 PrefabInstance:

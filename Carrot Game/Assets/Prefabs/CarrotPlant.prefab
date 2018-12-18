@@ -94,4 +94,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   reproduceInterval: 15
   growDuration: 5
+  tiltAmount: 3
+  tiltDuration: 2
+  waveSpacing: 15
   isGrown: 0
