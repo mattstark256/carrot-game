@@ -14,7 +14,7 @@ public class EnemyController : MonoBehaviour
     private float grabDistance = 0.5f;
 
     private SpriteRenderer spriteRenderer;
-    private CharacterController characterController;
+    private RabbitCharacterController characterController;
 
     private Carrot targetCarrot;
     private bool goingToCarrot = false;
@@ -29,7 +29,7 @@ public class EnemyController : MonoBehaviour
     private void Awake()
     {
         spriteRenderer = GetComponent<SpriteRenderer>();
-        characterController = GetComponent<CharacterController>();
+        characterController = GetComponent<RabbitCharacterController>();
         spriteRenderer.enabled = false;
         transform.position = door.transform.position;
         mouthCarrot.SetActive(false);

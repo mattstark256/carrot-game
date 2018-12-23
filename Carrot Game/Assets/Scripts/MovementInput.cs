@@ -2,15 +2,15 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-[RequireComponent(typeof(CharacterController))]
+[RequireComponent(typeof(RabbitCharacterController))]
 public class MovementInput : MonoBehaviour
 {
-    private CharacterController characterController;
+    private RabbitCharacterController characterController;
 
 
     private void Awake()
     {
-        characterController = GetComponent<CharacterController>();
+        characterController = GetComponent<RabbitCharacterController>();
     }
 
 
