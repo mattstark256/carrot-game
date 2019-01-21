@@ -300,7 +300,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1.5
-  m_Text: 'The other rabbits were duplicating your behaviour!
+  m_Text: 'The other rabbits were replicating your behaviour!
 
     Each time you took a carrot:'
 --- !u!1 &5827140256478265360
