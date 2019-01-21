@@ -78,7 +78,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1.5
-  m_Text: Press enter to continue...
+  m_Text: Press spacebar to continue...
 --- !u!1 &5358362511377176980
 GameObject:
   m_ObjectHideFlags: 0
@@ -135,6 +135,7 @@ GameObject:
   - component: {fileID: 7449914901565866244}
   - component: {fileID: 5900459199993360307}
   - component: {fileID: 2271067216915984460}
+  - component: {fileID: 1277141328198853229}
   m_Layer: 5
   m_Name: Panel Template
   m_TagString: Untagged
@@ -199,3 +200,16 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
+--- !u!114 &1277141328198853229
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7899809871485580277}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f183fdcf4cbd0d145b50be6ba7f9fe43, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  continueText: {fileID: 6466520845005124158}

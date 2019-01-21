@@ -78,8 +78,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1.5
-  m_Text: "The carrot patch is bare!\nOnce your supply runs out, you'll go hungry!\r\nIf
-    only those other rabbits hadn't been so greedy!\nHowever..."
+  m_Text: "The carrot patch is bare!\nOnce your supply runs out, your family will
+    go hungry!\r\nIf only those other rabbits hadn't been so greedy!\nHowever..."
 --- !u!1 &5827140256478265360
 GameObject:
   m_ObjectHideFlags: 0
@@ -169,7 +169,7 @@ PrefabInstance:
     - target: {fileID: 7899809871485580277, guid: 152500350bb548843a6ae9c822c8edd7,
         type: 3}
       propertyPath: m_Name
-      value: Panel End 1
+      value: Panel End Bad
       objectReference: {fileID: 0}
     - target: {fileID: 7449914901565866244, guid: 152500350bb548843a6ae9c822c8edd7,
         type: 3}

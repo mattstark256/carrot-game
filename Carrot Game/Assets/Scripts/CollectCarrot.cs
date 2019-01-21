@@ -16,6 +16,8 @@ public class CollectCarrot : MonoBehaviour
     private ScoreCounter scoreCounter;
     [SerializeField]
     private MirrorPlayerActions mirror;
+    [SerializeField]
+    private PopupManager popupManager;
 
     private bool carryingCarrot = false;
     private bool inCarrotPile = false;
@@ -37,6 +39,8 @@ public class CollectCarrot : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (popupManager.ActionKeyBlocked()) return;
+
         if (carryingCarrot)
         {
             if (inCarrotPile && Input.GetButtonDown("Action"))
